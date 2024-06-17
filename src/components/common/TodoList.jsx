@@ -37,10 +37,6 @@ function TodoList() {
         return;
       }
 
-    if(input.typeof !== 'number'){
-        alert('Please enter a number')
-        return;
-      }
 
     if(todos.length >= 4){
         alert('You can only add 4 todos')
@@ -63,7 +59,7 @@ function TodoList() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-2xl font-semibold mb-4">{ new Date().toDateString()}</h1>
+      <h1 className="text-2xl font-semibold mb-4">{new Date().toDateString()}</h1>
       <div className="flex flex-col w-80 p-4 bg-white rounded shadow">
         <input
         type='number'
