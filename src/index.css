@@ -2,9 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  * {
-    @apply max-w-7xl mx-auto;
-    @apply bg-slate-300;
-  }
-}
+
